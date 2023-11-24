@@ -1,3 +1,8 @@
+:root {
+  --width: 50;
+  --heigth: 50;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -14,8 +19,8 @@ body {
 
 #grid {
   display: grid;
-  grid-template-columns: repeat(50, 18px);
-  grid-template-rows: repeat(50, 18px);
+  grid-template-columns: repeat(var(--width), 18px);
+  grid-template-rows: repeat(var(--height), 18px);
   gap: 1px 1px;
 }
 
