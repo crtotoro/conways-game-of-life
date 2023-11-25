@@ -1,6 +1,6 @@
 // canvas settings
-let canvasWidth = 10; 
-let canvasHeight = 10;
+let canvasWidth = 40; 
+let canvasHeight = 40;
 document.documentElement.style.setProperty("--width", canvasWidth);
 document.documentElement.style.setProperty("--height", canvasHeight);
 
